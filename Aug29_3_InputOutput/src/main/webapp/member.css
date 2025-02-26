@@ -1,0 +1,87 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "a";
+	src: url("abread.TTF");
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 330px;
+	background-color: #D6EFD8;
+	color: #1A5319;
+	font-family: "a";
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #1A5319;
+}
+
+th {
+	color: #1A5319;
+	padding: 13px;
+	font-size: 30px;
+}
+
+.td1{
+	width: 80px;
+	padding: 13px;
+	font-size: 20px;
+	outline: none;
+}
+
+.textType:focus{
+	background-color: #80AF81;
+}
+
+.textType {
+	padding: 9px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-family: "a";
+}
+
+.but {
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	margin: 7px;
+	font-size: 15px;
+	background-color: #80AF81;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #1A5319;
+	font-family: "a";
+	color: #1A5319;
+}
+
+select {
+	width: 200px;
+	padding: 9px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-family: "a";
+	
+}
+
+select:focus{
+	background-color: #80AF81;
+}
+
+.id {
+	margin: 7px;
+	padding: 9px;
+}
+
+textarea {
+	width: 185px;
+	padding: 9px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-family: "a";
+	resize: none;
+}
+textarea:focus{
+	background-color: #80AF81;
+}
+

@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "b";
+	src: url("../font/bb.ttf");
+}
+
+.loginArea {
+	width: 220px;
+	padding-right: 20px;
+	border: #EEE5D3 solid 3px; 
+}
+
+.loginForm {
+	width: 170px;
+	padding: 8px;
+	outline: none;
+	border: #EEE5D3 solid 2px;
+	background-color: #BFA688;
+	border-radius: 10px;
+	font-family: b;
+	font-size: 15px;
+	color: #EEE5D3;
+}
+
+.loginbtn {
+	font-family: b;
+	width: 150px;
+	padding: 4px;
+	border-radius: 10px;
+	border: none;
+	background-color:  #EEE5D3;
+	color: #5a4f41;
+}
+#profileArea {
+	width: 220px;
+	padding-right: 20px;
+	border: #EEE5D3 solid 3px;
+	border-radius: 10px;
+	color: #5a4f41;
+}
+#profile {
+	width: 110px;
+}
+.profilebtn {
+	font-family: b;
+	width: 100px;
+	height: 50px;
+	padding: 4px;
+	border-radius: 10px;
+	border: #EEE5D3 solid 2px;
+	background-color:  #BFA688;
+	color: #5a4f41;
+}

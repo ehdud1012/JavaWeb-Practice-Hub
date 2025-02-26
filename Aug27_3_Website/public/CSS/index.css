@@ -1,0 +1,51 @@
+@charset "EUC-KR";
+@font-face {
+	/* 설치 안된 폰트도 쓸 수 있게 */
+	font-family: "sam3";
+	src: url("Sam3KRFont.ttf");
+}
+body {
+	margin: 30px;
+	padding: 0px;
+}
+#titleArea {
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #ffffffDD;
+}
+
+#title {
+	width: 1200px;
+	font-family: sam3;
+	font-size: 90px;
+}
+
+#titleBG {
+	background-color: #D6EFD8;
+}
+
+#menu {
+	width: 1200px;
+}
+#menuArea {
+	border: #80AF81 solid 3px;
+	padding: 5px;
+}
+#menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+#menu a:hover {
+	color: #1A5319;
+	
+}
+#contentArea {
+	width: 1200px;
+	/* 가운데 정렬 */
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 270px; 
+}

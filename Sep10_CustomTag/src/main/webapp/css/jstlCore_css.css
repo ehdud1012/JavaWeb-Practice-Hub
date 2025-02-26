@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+
+.jstlCInput {
+	width: 250px;
+	padding: 9px;
+	border-radius: 10px;
+	border: #8A8C46 solid 2px;
+	outline: none;
+}
+
+#jstlCbtn {
+	width: 150px;
+	padding: 9px;
+	border-radius: 10px;
+	border: none;
+	background-color:  #8A8C46;
+}
+
+#jstlCimg {
+	width: 100%;
+}

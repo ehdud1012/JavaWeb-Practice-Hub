@@ -1,0 +1,54 @@
+@charset "EUC-KR";
+#infoTable {
+	margin: 30px;
+	padding: 20px;
+	font-family: b;
+}
+
+
+#infoTable th {
+	font-size:60px;
+	color: #BFA688;
+	padding: 30px;
+}
+
+.infoForm {
+	font-family: b;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	background-color:#EEE5D3;
+}
+.infolist {
+	width: 600px;
+	padding: 8px;
+	outline: none;
+	border: #BFA688 solid 2px;
+	border-radius: 10px;
+	font-family: b;
+	font-size: 15px;
+	margin: 10px;
+}
+
+.infobtn {
+	width: 290px;
+	padding: 9px;
+	border-radius: 10px;
+	border: #BFA688 solid 2px;
+	background-color:  #BFA688;
+	font-family: b;
+	font-size: 20px;
+}
+
+.infoname {
+	width: 80px;
+	color: #84735e;
+}
+
+.space {
+	padding: 5px;
+}
+
+#infoprofile {
+	max-width: 80%;
+}

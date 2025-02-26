@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+.aPost {
+	width: 900px;
+	border: #1A5319 solid 3px;
+	border-radius: 20px;
+	margin: 10px;
+}
+.aPost img {
+	/* 
+		이미지 크기 조절X, 딱 맞는 이미지 사용 
+		회원가입때 사용자가 사이즈를 맞출 수 없으니 조절 필요	
+		큰 -> 작게 : 그닥 안어려움
+		작 -> 크게 : XX
+	*/
+	max-width: 200px; /* 100보다 컸으면 100으로, 100보다 작으면 원본 사이즈로 */
+}
+.aPost .imgTd {
+	width: 210px;
+	border: #80AF81 solid 3px;
+	border-radius: 20px;
+}
+

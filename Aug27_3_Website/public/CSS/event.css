@@ -1,0 +1,31 @@
+@charset "EUC-KR";
+#eventTable {
+	width: 900px;
+	border: #80AF81 solid 3px;
+	box-shadow: 5px 5px 5px #1A5319; /*(5px 5px 5px #1A5319 inset) 안쪽으로 그림자*/
+	
+	border-spacing:3px;
+	/* 제목 줄 디자인 */
+	color: #1A5319;
+	background-color: #D6EFD8;
+}
+#eventTable .dataTr {
+	color: black;
+	background-color: white;
+	cursor : pointer;
+	/*
+		CSS3에 추가된 애니메이션
+			속성명 시간 속도조절(ease-in, ease-out / 뭘쓰는 잘 모름)
+	*/
+	transition: background-color 1s ease-in;
+	
+	height: 100px;
+}
+
+#eventTable .dataTr:hover {
+	background-color: #D6EFD8;
+}
+
+#eventTable td {
+	border: #1A5319 solid 2px;
+}

@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+
+.calcInput {
+	width: 200px;
+	padding: 9px;
+	border-radius: 10px;
+	border: #D2E0FB solid 2px;
+	outline: none;
+}
+#calcbtn {
+	width: 200px;
+	padding: 9px;
+	border-radius: 10px;
+	border: #D2E0FB solid 3px;
+}

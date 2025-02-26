@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEE5D3;
+}
+
+#sitetitle {
+	background-color: #BFA688;
+	padding: 15px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#sitetitle a{
+	font-size: 28px;
+	font-weight:950;
+	color: #F2EBDC;
+	text-decoration: none;
+}
+
+#sitetitle a:hover {
+	color: white;
+}
+
+#sitemenuArea {
+	background-color: #BFA688;
+	font-size: 17px;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+#sitemenu a {
+	color: #F2EBDC;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight:650;
+}
+
+#siteContent {
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+#homeimg {
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+#lotto {
+	font-size: 30px;
+	color: #BFA688;
+}
+

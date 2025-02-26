@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="member.css">
+</head>
+<body>
+	<form action="JoinServlet" method="post"> 
+		<table>
+			<tr>
+				<th colspan="2">회원가입</th>
+			</tr>
+			<tr align="center">
+				<td class="td1">ID</td>
+				<td><input name="id" class="textType" 
+						placeholder="아이디를 입력하세요"
+						autocomplete="off"
+						maxlength="8"
+						autofocus="autofocus">
+				</td>
+			</tr>
+			<tr align="center">
+				<td class="td1">PW</td>
+				<td><input name="pw" 
+						type="password"
+						class="textType" 
+						placeholder="비밀번호를 입력하세요"
+						autocomplete="off"
+						maxlength="8">
+				</td>
+			</tr>
+			<tr align="center">
+				<td class="td1">성별</td>
+				<td>
+					<input name="gender" type="radio" value="남" checked="checked">남자 &nbsp;&nbsp;
+					<input name="gender" type="radio" value="여"> 여자 &nbsp;&nbsp;
+					<input name="gender" type="radio" value="기타"> 기타
+				</td>
+			</tr>
+			<tr align="center">
+				<td class="td1">주소</td>
+				<td>
+					<select name="address">
+						<option>서울</option>
+						<option>경기도</option>
+						<option>충청도</option>
+						<option>전라도</option>
+						<option>경상도</option>
+						<option>강원도</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="td1" align="center">관심사</td>
+				<td id="inter">
+					<input name="inter" type="checkbox" value="IT"> IT &nbsp;&nbsp;
+					<input name="inter" type="checkbox" value="스포츠"> 스포츠<br>
+					<input name="inter" type="checkbox" value="정치"> 정치 &nbsp;&nbsp;
+					<input name="inter" type="checkbox" value="경제"> 경제 
+				</td>
+			</tr>
+			<tr align="center">
+				<td class="td1">자기<br>소개</td>
+				<td>
+					<textarea name="introduce" rows="" cols="">
+					
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<!-- <input type="submit" value="가입">  원래 이거였는데 -->
+					<!-- 요즘 이것도 요청 출발가능 -->
+					<button class="but">가입</button> 
+					
+					<!-- form에 입력해놓은거 다 지우기 -->
+					<input class="but" type="reset" value="다시"> 
+					
+					<!-- 이미지 버튼 -->
+					<input type="image" src="newBall.png">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

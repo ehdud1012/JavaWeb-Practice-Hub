@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width="300px" height="300px"> <!-- 사이즈는 CSS로 -->
+		<tr> <!-- 행 row -->
+			<td align="center">1</td> <!-- 데이터, 열, col -->
+			<th>2</th> <!-- 제목 : 굵게, 가운데 정렬-->
+		</tr>
+		<tr>
+			<td valign="top">3</td> <!-- 위 아래로 정렬 -->
+			<td valign="bottom" align="center">4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<hr>
+	
+	<!-- 행과 열은 제일 많은 쪽에 맞춰지고, 부족하면 비워져있음 -->
+	<table border="1" width="300px" height="150px">
+		<tr>
+			<td rowspan="2">1</td> <!-- 차지하는 행 수 2개 -->
+			<td colspan="2">3</td> <!-- 차지하는 열 수 2개 -->
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<hr>
+	
+	<table border="1" width="300px" height="300px">
+		<tr>
+			<td colspan="2"></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+</body>
+</html>

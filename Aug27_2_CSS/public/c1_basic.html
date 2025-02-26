@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css"> /* css 주석 */
+	h1 {
+		font-size: 50pt;
+	}
+	h2 {
+		color: #D50000;
+	}
+	#aa {
+		/* 얘도 색 이름 or RGB or RGBA */
+		color: #FFB300; 
+	}
+	.bb {
+		/* x y blur color */
+		text-shadow: 3px 5px 7px #F57F17;
+	}
+	div, span { /* 조합형 */
+		/* 굵기 */
+		font-weight: 900; 
+	}
+	div h1 { /* div 안에 h1 선택 */
+		background-color: #EF9A9A;
+	}
+	span.bb { /* span인데 bb만 */
+		font-family: "궁서";
+	}
+	
+	.ccc.bb { /* 클래스가 ccc, bb인것 */
+		text-decoration: underline;
+	}
+	h3:hover { /* 커서가 위에 있을 때 */
+		color: #311B92;
+	}
+	
+	h3:active { /* 클릭됐을 때 */
+		color:red;
+	}
+	input:focus { /* input 안에 뭐 쓸 때 */
+		background-color: yellow;
+	}
+</style>
+</head>
+<body>
+	<!-- 
+		CSS (Cascading Style Sheet)
+			- HTML DOM 객체에 디자인 부여
+			
+			- CSS selector : css 말고 다른 분야에서도 활용
+				1) 기본형 (오피셜 X)
+					태그명을 사용 - 그 태그 모두 다
+					#아이디 - 아이디가 그거인 것 
+					.class -  클래스가 그거인 것들
+				2) 조합형
+					기본형, 기본형, ... - 한꺼번에 선택
+					기본형 기본형 ... - 내부 선택
+					기본형.class - 해당하는 것만
+				3) 상태형
+					기본형:상태 - 그 상태일 때
+			- 문법
+				선택자 {
+					속성명 : 값;
+					속성명 : 값;
+					...
+				}
+	 -->
+	 <h1 id="aa">귤</h1> <!-- 같은 아이디 XX -->
+	 <h1 class="bb">오렌지</h1> <!-- 같은 클래스 OO -->
+	 <h2 class="ccc">사과</h2>
+	 
+	 <div>
+	 	<h1>복숭아</h1>
+	 </div>
+	 <span class="bb ccc">멜론</span>
+	 <h3>포도</h3>
+	 <input><input>
+</body>
+</html>

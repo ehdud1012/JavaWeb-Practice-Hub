@@ -1,0 +1,206 @@
+@charset "EUC-KR";
+
+#noticeBBSArea {
+	width: 800px;
+	font-family: b;
+	color: #5a4f41;
+}
+#noticeBBSArea th{
+	font-size:60px;
+	color: #BFA688;
+	padding: 20px;
+}
+
+#noticeBBSArea a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #5a4f41;
+	
+}
+#noticeRegTable {
+	width: 800px;
+	font-family: b;
+}
+#regTitle {
+	background-color: transparent;
+	width: 700px;
+	font-family: b;
+	font-size: 30px;
+	border: #BFA688 solid 4px;
+	border-radius: 10px;
+	outline: none;
+	margin: 10px;
+	padding: 10px;
+}
+#noticeRegTable textarea{
+	width: 700px;
+	height: 300px;
+	font-family: b;
+	font-size: 20px;
+	outline: none;
+	border: #BFA688 solid 4px;
+	border-radius: 10px;
+	background-color: transparent;
+	padding: 10px;
+}
+#noticeRegTable button{
+	width: 100px;
+	font-family: b;
+	font-size: 20px;
+	color: #5a4f41;
+	padding: 5px;
+	border: #BFA688 solid 4px;
+	border-radius: 15px;
+	background-color: transparent;
+	outline: #BFA688;
+}
+
+#contentTable {
+	width: 800px;
+	font-family: b;
+	color: #5a4f41;
+}
+#contentTable td{
+	border: #BFA688 solid 1px;
+}
+#contentTable .dataTR{
+	height: 30px;
+	cursor: pointer;
+}
+#contentTable .dataTR:hover{
+	background-color: white;
+}
+.contextMenu {
+	background-color:  #BFA688;
+	font-size: 20px;
+}
+.contextMenu td{
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.no {
+ 	width: 50px;
+}
+ 
+.date {
+	width: 130px;
+}
+
+#noticeSearchInput {
+	height: 25px;
+	background-color: transparent;
+	font-family: b;
+	border: #BFA688 solid 4px;
+	color: #5a4f41;
+	border-radius: 10px;
+	outline: none;
+}
+
+#noticeSearchBtn {
+	height: 30px;
+	width: 50px;
+	background-color:  #BFA688;
+	color: #5a4f41;
+	border: none;
+	font-family: b;
+	cursor: pointer;
+	border-radius: 10px;
+	
+}
+
+#contentimg {
+	max-width: 150px;
+}
+
+#content2Table {
+	font-family: b;
+	color: #5a4f41;
+}
+
+#writerTable {
+	border: #BFA688 solid 4px;
+	border-radius: 10px;
+	width: 100%;
+	font-family: b;
+}
+#writerTable td{
+	border: #BFA688 solid 1px;
+	border-radius: 10px;
+}
+#writerTable input{
+	width: 600px;
+	font-family: b;
+	font-size: 50px;
+	color: #5a4f41;
+	padding: 5px;
+	border: none;
+	background-color: transparent;
+	outline: #BFA688;
+}
+
+#contentTxt {
+	width: 800px;
+	height: 300px;
+	font-family: b;
+	font-size: 20px;
+	color: #5a4f41;
+	outline: none;
+	border: none;
+	border-bottom: #BFA688 solid 4px;
+	background-color: transparent;
+	padding: 10px;
+}
+.bntbtn {
+	width: 100px;
+	font-family: b;
+	font-size: 20px;
+	color: #5a4f41;
+	padding: 5px;
+	border: #BFA688 solid 4px;
+	border-radius: 15px;
+	background-color: transparent;
+	outline: #BFA688;
+}
+#commentTable {
+	width: 100%;
+	border-collapse : collapse;
+}
+#line{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: #BFA688 solid 4px;
+}
+
+#commentInput{
+	width: 730px;
+	border: #BFA688 solid 2px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #5a4f41;
+	font-family: b;
+	font-size: 20px;
+	padding: 5px;
+}
+
+#commentBnt {
+	width: 50px;
+	font-family: b;
+	font-size: 15px;
+	color: #5a4f41;
+	padding: 5px;
+	border: none;
+	border-radius: 15px;
+	background-color: #BFA688;
+	outline: #BFA688;
+}
+
+.comments{
+	border-top: #bfa688 solid 1px;
+}
+.comments td{
+	padding: 5px;
+}
+
+.commentWriter {
+	width: 100px;
+}

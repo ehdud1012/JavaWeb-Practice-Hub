@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		톰캣
+			글자, 숫자 : 인코딩 가능
+			파일 : 인코딩 할 줄 모름 => 가져다 써야지 머 
+		
+		cos.jar 의 방법으로 인코딩해서 사용
+			1) cos.jar 프로젝트에 넣고
+				jar 파일 넣는 법
+				   -> src - main - webapp - WEB-INF - lib 요기다 붙여넣기
+			2) 파일이 업로드 될 폴더 확보 (= 서버 )s
+				서버에 폴더를 지금 만들 수 있나 ..?
+					-> 프로젝트에 폴더 만들어놓으면 
+					-> 프로젝트를 나중에 서버에 올릴꺼니까
+						=> 폴더 생성 완료 !
+			3) POST방식 (주소에 작성 X)
+			4) 인코딩 방식 톰갯 -> cos.jar
+				form에 enctype="multipart/form-data" 추가
+	 -->
+	<form action="FileuploadServlet" method="post" enctype="multipart/form-data">
+		제목 : <input name="title"> <p>
+		사진 : <input name="photo" type="file"> <p>
+		압축파일 : <input name="zip" type="file"> <p>
+		<button>제출</button>
+	</form>
+</body>
+</html>

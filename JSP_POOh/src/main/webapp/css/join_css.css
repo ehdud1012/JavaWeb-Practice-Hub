@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+
+#joinTable {
+	margin: 30px;
+	padding: 20px;
+	font-family: b;
+}
+
+#joinTable th {
+	font-size:60px;
+	color: #BFA688;
+}
+
+.joinForm {
+	width: 600px;
+	padding: 8px;
+	outline: none;
+	border: none;
+	background-color: #BFA688;
+	border-radius: 10px;
+	font-family: b;
+	font-size: 15px;
+	margin: 5px;
+}
+
+#joinbtn {
+	width: 300px;
+	padding: 9px;
+	border-radius: 10px;
+	border: none;
+	background-color:  #BFA688;
+	font-family: b;
+	font-size: 20px;
+	margin: 30px;
+}
+
+.dateForm{
+	border-radius: 10px;
+	border: none;
+	font-family: b;
+	font-size: 15px;
+	padding: 5px;
+	background-color: #EEE5D3;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		<a href="경로"> </a> : 파일 열기
+			- 시작,종료태그 사이에 적은거 클릭하면 이동
+			
+			- href="주소" : 웹페이지 이동 => 경로나 주소나 똑같음
+				인터넷 주소 체계
+					http:// or https://		통신방식
+					www.google.com 			DNS서버에서 IP주소로 바꿔줌
+					생략						포트번호 (80번이 기본이라 생략 가능)
+					생략						폴더명 (ROOT는 생략 가능)
+					생략						파일명 (index는 생략 가능)
+					
+			- 브라우저가 열줄아는 파일(html, png, ...)	: 열기
+			  브라우저가 열줄 모르는 파일(jar, ...) 		: 다운받기
+			  
+			- SPA (Single Page Application) 
+				스크롤 기반으로 한 페이지로 제작된 것 => 현재 페이지 특정 위치로 이동
+				현재 페이지 특정 위치로 이동 - 이동할 곳에 a태그, 이름 붙이기
+									   - 누르면 이동될 곳에 #이름 넣기
+	-->
+	<a href="https://www.naver.com">네이버로</a> 
+	<hr>
+	<a href="https://www.google.com"> <!-- 구글 웹 서버에 있는 index.html 연거임 -->
+		<img alt="" src="ball.png">
+	</a> 
+	<hr>
+	<a href="h1_test.html">test 로</a> 
+	<hr>
+	<a href="ball.png">공 사진</a>
+	<hr>
+	<a href="KdyDBManager_v1.0.jar">jar 파일</a> <!-- 다운받기 -->
+	<hr>
+	<a href="#abcd">'여기'로 간다</a> <br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	<a name="abcd"><h2>여기</h2></a> <!-- 스크롤 애니메이션은 자바스크립트로 / 사실 이동도 자바스크립트로 -->
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz<br>
+	<a href="#top">맨 위로</a> <!-- 보편적인 거라 이름 안붙여도 존재 -->
+</body>
+</html>

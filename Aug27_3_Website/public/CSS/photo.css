@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+.photoTd{
+	width: 250px;
+	border: #1A5319 solid 3px;
+	border-radius: 20px;
+	margin: 10px;
+	float: left;
+}
+
+.photoTd img {
+	max-width: 200px;
+}
+.photoTd .photoimgTd{
+	width: 210px;
+	border: #80AF81 solid 3px;
+	border-radius: 20px;
+}
