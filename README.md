@@ -9,8 +9,8 @@
 - **웹 프레임워크:** Servlet, JSP
 - **빌드 도구:** Maven
 - **서버:** Apache Tomcat
-- **데이터베이스:** MySQL (필요시 사용)
-- **Java 버전:** 1.8 이상
+- **데이터베이스:** Oracle DB
+- **Java 버전:** 1.6
 
 ## 📂 실습 내용
 
